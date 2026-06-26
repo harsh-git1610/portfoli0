@@ -55,7 +55,7 @@ export const heroConfig = {
   // Personal Information
   name: 'Harsh Chauhan',
   title: 'A Full Stack web developer.',
-  avatar: '/assets/logo.png',
+  avatar: 'https://api.dicebear.com/9.x/micah/svg?seed=Harsh&backgroundColor=b6e3f4',
 
   // Skills Configuration
   skills: [
