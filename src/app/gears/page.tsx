@@ -99,7 +99,7 @@ export default function GearsPage() {
             <div className="bg-muted flex items-center justify-center rounded-md border border-black/10 p-2 text-[#736F70] dark:border-white/10">
               <Monitor className="size-4" />
             </div>
-            <h2 className="text-2xl font-semibold">Software</h2>
+            <h2 className="text-2xl font-semibold">Software / IDE</h2>
           </div>
           <div className="mt-8 flex flex-col flex-wrap gap-4">
             {software.map((app, index) => (

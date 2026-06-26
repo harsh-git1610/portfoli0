@@ -18,10 +18,10 @@ export const siteConfig = {
   ogImage: '/meta/opengraph-image.png',
   author: {
     name: about.name,
-    twitter: '@ramxcodes',
-    github: 'ramxcodes',
-    linkedin: 'ramxcodes',
-    email: 'ramxcodes@gmail.com',
+    twitter: '@HarshCh00465982',
+    github: 'harsh-git1610',
+    linkedin: 'harsh-chauhan-7b6a05288',
+    email: 'w.harsh2005@gmail.com',
   },
   keywords: [
     'portfolio',
