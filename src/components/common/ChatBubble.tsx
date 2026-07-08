@@ -32,7 +32,7 @@ interface Message {
 const initialMessages: Message[] = [
   {
     id: 1,
-    text: "Hello! I'm Ram's Portfolio Assistant. How can I help you?",
+    text: "Hello! I'm Harsh's Portfolio Assistant. How can I help you?",
     sender: 'bot',
     timestamp: new Date().toLocaleTimeString([], {
       hour: '2-digit',
@@ -268,8 +268,15 @@ const ChatBubble: React.FC = () => {
       <ExpandableChatHeader>
         <div className="flex items-center space-x-3">
           <Avatar className="border-primary h-8 w-8 border-2 bg-blue-300 dark:bg-yellow-300">
-            <AvatarImage src="/assets/logo.png" alt="Assistant" />
-            <AvatarFallback>AI</AvatarFallback>
+            <div
+              style={{
+                backgroundImage: 'url(/oneko/oneko.gif)',
+                backgroundPosition: '-96px -96px',
+                width: '32px',
+                height: '32px',
+                imageRendering: 'pixelated',
+              }}
+            />
           </Avatar>
           <div>
             <h3 className="text-sm font-semibold">
@@ -301,8 +308,16 @@ const ChatBubble: React.FC = () => {
                 <div className="flex items-start space-x-2">
                   {message.sender === 'bot' && (
                     <Avatar className="border-primary h-6 w-6 border-2 bg-blue-300 dark:bg-yellow-300">
-                      <AvatarImage src="/assets/logo.png" alt="Assistant" />
-                      <AvatarFallback>AI</AvatarFallback>
+                      <div
+                        style={{
+                          backgroundImage: 'url(/oneko/oneko.gif)',
+                          backgroundPosition: '-96px -96px',
+                          width: '32px',
+                          height: '32px',
+                          imageRendering: 'pixelated',
+                          transform: 'scale(0.75)',
+                        }}
+                      />
                     </Avatar>
                   )}
                   <div className="max-w-xs flex-1 md:max-w-sm">
