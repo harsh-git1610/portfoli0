@@ -29,22 +29,22 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    isCurrent: false,
+    isCurrent: true,
     company: 'Deloitte',
-    position: 'Incoming Summer Intern - Technology & Transformation',
+    position: 'Summer Intern - Technology & Transformation',
     location: 'Delhi, India',
     image: '/assets/logo.png',
     description: [
-      'Incoming summer intern in the Digital Privacy & Trust department of the Technology & Transformation function.',
-      'Selected to join the Delhi office for the summer 2026 cohort.'
+      'Contributing to the DFA Command Center on Deloitte’s internal GenW.AI platform — a multi-step AI workflow automation tool designed to streamline consultant-facing operational processes.',
+      'Building UI components and data-bound widgets using Appsmith, implementing workflow state management and dynamic data rendering to support end-to-end process automation across internal teams.'
     ],
     startDate: 'June 2026',
-    endDate: 'August 2026',
+    endDate: 'Present',
     technologies: [],
     website: 'https://www2.deloitte.com/',
   },
   {
-    isCurrent: true,
+    isCurrent: false,
     company: 'Vesta',
     position: 'AI Engineer Intern',
     location: 'Remote',
@@ -57,7 +57,7 @@ export const experiences: Experience[] = [
       '*Frontend & Reliability:* Developed a responsive frontend for real-time AI streaming, and cut backend latency by 90% and API spend by 25% using a fast-path router for common queries.',
     ],
     startDate: 'March 2026',
-    endDate: 'Present',
+    endDate: 'June 2026',
     technologies: [
       {
         name: 'React',

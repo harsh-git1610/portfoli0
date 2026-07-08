@@ -1,0 +1,33 @@
+---
+title: 'Earnings AI — Financial Statement & Earnings Analyzer'
+description: 'Institutional-grade equity research tool that extracts financial statements to Excel and summarizes earnings calls using Google Gemini.'
+image: '/project/analytics-tool.png'
+technologies: ['Next.js', 'React', 'Tailwind CSS', 'Gemini']
+timeline: 'Completed'
+role: 'Full Stack AI Engineer'
+team: 'Solo'
+status: 'completed'
+featured: true
+isPublished: true
+---
+
+## Overview
+
+Earnings AI is a specialized document analysis tool built with Next.js 16 and React 19. It leverages the power of Google Gemini 3 Flash to parse, extract, and analyze financial data from PDFs and TXT files, providing institutional-grade equity research capabilities without the noise of open-ended chat interfaces.
+
+## Key Features
+
+### Financial Extraction to Excel
+- **Granular Data Capture:** Captures all granular line items including sub-categories and preserves hierarchy via indentation.
+- **Multi-Year Support:** Capable of extracting up to 6 fiscal years of data from a single document.
+- **Styled Excel Export:** Leverages ExcelJS to output beautiful, ready-to-use `.xlsx` files complete with auto-fitted columns, colored headers, bold subtotals, and specific number formatting.
+
+### Earnings Call / Management Commentary Summary
+- **Institutional-Grade Reports:** Automatically produces comprehensive equity research reports in PDF format.
+- **Deep Analysis:** Features automated sentiment analysis, key positives and concerns, forward guidance assessment, red flags, and an independent analyst verdict.
+- **AI-Powered Critical Annotations:** The pipeline distinguishes hard data from assertions, flags vague forward guidance, tracks management omissions, and highlights contradictions in the text.
+
+### Workflow & Reliability
+- **Multi-File Uploads:** Users can batch upload and process multiple files simultaneously.
+- **Client-Side Validation:** Intelligent client-side file size validation directly links users to PDF compressors for oversized files, ensuring a smooth user experience.
+- **Focused Scope:** Strictly supports PDF and TXT documents, ensuring high reliability for financial analysis over general-purpose chat.
