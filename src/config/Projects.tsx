@@ -8,6 +8,25 @@ import Gemini from '@/components/technologies/Gemini';
 import { Project } from '@/types/project';
 
 export const projects: Project[] = [
+  
+  {
+    title: 'Finvio',
+    description:
+      'AI Powered Invoicing and Analytics System with real-time analytics queries and automated extraction.',
+    image: '/project/finvio.png',
+    link: 'https://fin-vio.vercel.app/',
+    live: 'https://fin-vio.vercel.app/',
+    technologies: [
+      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+      { name: 'React', icon: <ReactIcon key="react" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'PostgreSQL', icon: <PostgreSQL key="postgresql" /> },
+      { name: 'Prisma', icon: <Prisma key="prisma" /> },
+    ],
+    details: true,
+    projectDetailsPageSlug: '/projects/finvio',
+    isWorking: true,
+  },
   {
     title: 'Earnings AI',
     description:
@@ -26,23 +45,6 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: 'Finvio',
-    description:
-      'AI Powered Invoicing and Analytics System with real-time analytics queries and automated extraction.',
-    image: '/project/finvio.png',
-    link: 'https://fin-vio.vercel.app/',
-    live: 'https://fin-vio.vercel.app/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'PostgreSQL', icon: <PostgreSQL key="postgresql" /> },
-      { name: 'Prisma', icon: <Prisma key="prisma" /> },
-    ],
-    details: true,
-    projectDetailsPageSlug: '/projects/finvio',
-    isWorking: true,
-  },
-  {
     title: 'Inscribe',
     description:
       'AI Powered README Generator that streams responses via a Next.js serverless endpoint.',
@@ -51,7 +53,9 @@ export const projects: Project[] = [
     live: 'https://insscribeai.vercel.app/',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+      { name: 'React', icon: <ReactIcon key="react" /> },
       { name: 'PostgreSQL', icon: <PostgreSQL key="postgresql" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> }
     ],
     details: true,
     projectDetailsPageSlug: '/projects/inscribe',
@@ -66,6 +70,7 @@ export const projects: Project[] = [
     live: 'https://rewear-fashion.vercel.app/',
     technologies: [
       { name: 'React', icon: <ReactIcon key="react" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> }
     ],
     details: true,
     projectDetailsPageSlug: '/projects/rewear',
