@@ -1,7 +1,7 @@
 'use client';
 
 import ChatBubbleIcon from '@/components/svgs/ChatBubbleIcon';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import {
   ExpandableChat,
