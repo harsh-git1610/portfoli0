@@ -76,4 +76,6 @@ export const projects: Project[] = [
     projectDetailsPageSlug: '/projects/rewear',
     isWorking: true,
   },
+
+  
 ];

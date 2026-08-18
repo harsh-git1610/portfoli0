@@ -3,11 +3,12 @@
  *
  * This file contains the configuration for the GitHub contribution graph.
  * Update the username to match your GitHub profile.
+ * 
  */
 
 export const githubConfig = {
   username: 'harsh-git1610',
-  apiUrl: 'https://github-contributions-api.deno.dev',
+  apiUrl: '/api/github-contribution',
 
   // Display settings
   title: 'GitHub Activity',
