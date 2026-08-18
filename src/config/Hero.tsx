@@ -89,7 +89,7 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, and {skills:3}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, and {skills:3}. With a focus on <b>UI</b> design. I enjoy building clean, responsive interfaces and turning ideas into polished web experiences.',
   },
 
   // Buttons Configuration

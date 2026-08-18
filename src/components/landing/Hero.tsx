@@ -35,13 +35,13 @@ export default function Hero() {
         );
       } else if (part.type === 'bold' && 'text' in part) {
         return (
-          <b key={part.key} className="text-primary whitespace-pre-wrap">
+          <b key={part.key} className="text-primary">
             {part.text}
           </b>
         );
       } else if (part.type === 'text' && 'text' in part) {
         return (
-          <span key={part.key} className="whitespace-pre-wrap">
+          <span key={part.key}>
             {part.text}
           </span>
         );
@@ -58,9 +58,9 @@ export default function Hero() {
           Hi, I&apos;m {name} — <span className="text-secondary">{title}</span>
         </h1>
 
-        <div className="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-base whitespace-pre-wrap text-neutral-500 md:text-lg">
+        <p className="mt-4 text-base leading-relaxed text-neutral-500 md:text-lg [&>a]:mx-1 [&>a]:inline-flex [&>a]:align-middle">
           {renderDescription()}
-        </div>
+        </p>
       </div>
 
       {/* Buttons */}
